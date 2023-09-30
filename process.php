@@ -7,14 +7,14 @@ $mail = new PHPMailer;
 $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
-$mail->Username = 'ravi.roxxx.0001@gmail.com'; // Your Gmail email address
+$mail->Username = 'gomadppvtltd@gmail.com'; // Your Gmail email address
 // $mail->Password = 'your_'; // Your Gmail password
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
 
 // Sender and recipient
 $mail->setFrom($_POST['email'], $_POST['name']);
-$mail->addAddress('ravi.roxxx.0001@gmail.com'); // Your Gmail email address
+$mail->addAddress('gomadpvtltd@gmail.com'); // Your Gmail email address
 
 // Email content
 $mail->isHTML(false);
